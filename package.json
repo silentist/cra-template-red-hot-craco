@@ -1,7 +1,18 @@
 {
   "name": "cra-template-red-hot-craco",
   "version": "0.1.0",
-  "private": true,
+  "keywords": [
+    "react",
+    "create-react-app",
+    "template",
+    "craco",
+    "redux",
+    "hot-reload",
+    "router",
+    "styled-components",
+    "eslint",
+    "prettier"
+  ],
   "main": "template.json",
   "scripts": {
     "start": "craco start",
