@@ -1,0 +1,57 @@
+{
+  "extends": [
+    "airbnb",
+    "react-app",
+    "plugin:jsx-a11y/recommended",
+    "prettier",
+    "prettier/react"
+  ],
+  "plugins": [
+    "jsx-a11y",
+    "prettier"
+  ],
+  "rules": {
+    "react/jsx-filename-extension": [1, { "extensions": [".jsx"] }],
+    "prettier/prettier": [
+      "error", {
+        "singleQuote": true,
+        "tabWidth": 2
+      }
+    ],
+    "import/extensions": ["error", {
+      "js": "never",
+      "jsx": "never"
+    }],
+    "import/order": ["error", {
+      "newlines-between": "always",
+      "pathGroups": [
+        {
+          "pattern": "~/**",
+          "group": "internal"
+        }
+      ],
+      "groups": [
+        "builtin",
+        "external",
+        "internal",
+        ["parent", "sibling"],
+        "index",
+        "object"
+      ]
+    }]
+  },
+  "settings": {
+    "import/resolver": {
+      "node": {
+        "extensions": [".js", ".jsx"],
+        "paths": ["src"]
+      },
+      "alias": [
+        ["~", "./src/"]
+      ]
+    }
+  },
+  "env": {
+    "browser": true
+  }
+}
