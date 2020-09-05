@@ -14,6 +14,11 @@
     "prettier"
   ],
   "publishConfig": { "registry": "https://npm.pkg.github.com/@silentist" },
+  "repository" : {
+    "type" : "git",
+    "url": "ssh://git@github.com:silentist/cra-template-red-hot-craco.git",
+    "directory": "cra-template-red-hot-craco"
+  },
   "main": "template.json",
   "scripts": {
     "start": "craco start",
