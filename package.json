@@ -1,6 +1,6 @@
 {
   "name": "@silentist/cra-template-red-hot-craco",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "keywords": [
     "react",
     "create-react-app",
@@ -13,11 +13,11 @@
     "eslint",
     "prettier"
   ],
-  "publishConfig": { "registry": "https://npm.pkg.github.com/@silentist" },
+  "publishConfig": { "registry": "https://npm.pkg.github.com" },
   "repository" : {
     "type" : "git",
     "url": "ssh://git@github.com:silentist/cra-template-red-hot-craco.git",
-    "directory": "cra-template-red-hot-craco"
+    "directory": "silentist/cra-template-red-hot-craco"
   },
   "main": "template.json",
   "scripts": {
