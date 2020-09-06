@@ -46,9 +46,12 @@
         "extensions": [".js", ".jsx"],
         "paths": ["src"]
       },
-      "alias": [
-        ["~", "./src/"]
-      ]
+      "alias": {
+        "map": [
+          ["~", "./src"]
+        ],
+        "extensions": [".js", ".jsx"]
+      }
     }
   },
   "env": {
