@@ -25,14 +25,14 @@ const Container = styled.div`
 `;
 
 const Header = styled.header`
-  background-color: #282c34;
-  min-height: 100vh;
   display: flex;
   flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  align-items: center;
+  min-height: 100vh;
+  background-color: #282c34;
   color: white;
+  font-size: calc(10px + 2vmin);
 `;
 
 const LogoImg = styled.img`
