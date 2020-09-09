@@ -26,6 +26,16 @@ module.exports = {
       return c;
     },
   },
+  jest: {
+    configure: (c) => {
+      c.moduleNameMapper = {
+        ...c.moduleNameMapper,
+        '~/(.*)$': '<rootDir>/src/$1',
+      };
+      c.moduleFileExtensions = [...c.moduleFileExtensions, 'jsx'];
+      return c;
+    },
+  },
   plugins: [
     {
       plugin: reactHotReloadPlugin,
