@@ -4,9 +4,6 @@ const path = require('path');
 const reactHotReloadPlugin = require('craco-plugin-react-hot-reload');
 
 module.exports = {
-  babel: {
-    plugin: ['react-hot-loader/babel'],
-  },
   webpack: {
     alias: {
       '~': path.resolve(__dirname, './src'),
