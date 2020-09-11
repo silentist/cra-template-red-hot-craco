@@ -35,8 +35,7 @@
         "external",
         "internal",
         ["parent", "sibling"],
-        "index",
-        "object"
+        "index"
       ]
     }]
   },
