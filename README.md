@@ -2,6 +2,8 @@
 
 This is a CRACO template for [Create React App](https://github.com/facebook/create-react-app).
 
+`redux`, `react-hot-loader`, `craco`, `react-router`, `styled-components`, `eslint`, `prettier`, `eslint-import-resolver-alias`
+
 To use this template, add `--template red-hot-craco` when creating a new app.
 
 For example:
