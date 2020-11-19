@@ -11,7 +11,6 @@ module.exports = {
     configure: (c) => {
       /* eslint-disable no-param-reassign */
       if (c.mode === 'development') {
-        c.entry = ['react-hot-loader/patch', ...c.entry];
         c.resolve = {
           ...c.resolve,
           alias: {

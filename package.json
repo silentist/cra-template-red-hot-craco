@@ -1,5 +1,5 @@
 {
-  "name": "@silentist/cra-template-red-hot-craco",
+  "name": "cra-template-red-hot-craco",
   "version": "0.1.1",
   "keywords": [
     "react",
@@ -13,10 +13,12 @@
     "eslint",
     "prettier"
   ],
-  "publishConfig": { "registry": "https://npm.pkg.github.com" },
-  "repository" : {
-    "type" : "git",
-    "url": "ssh://git@github.com:silentist/cra-template-red-hot-craco.git",
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/silentist/cra-template-red-hot-craco.git",
     "directory": "silentist/cra-template-red-hot-craco"
   },
   "main": "template.json",
@@ -58,6 +60,8 @@
   },
   "devDependencies": {
     "craco-plugin-react-hot-reload": "^0.1.0",
+    "babel-eslint": "^10.1.0",
+    "eslint": "^7.13.0",
     "eslint-config-airbnb": "^18.2.0",
     "eslint-config-prettier": "^6.11.0",
     "eslint-config-react-app": "^5.2.1",
@@ -73,5 +77,12 @@
     "stylelint-config-recommended": "^3.0.0",
     "stylelint-config-styled-components": "^0.1.1",
     "stylelint-processor-styled-components": "^1.10.0"
-  }
+  },
+  "description": "This is a CRACO template for [Create React App](https://github.com/facebook/create-react-app).",
+  "bugs": {
+    "url": "https://github.com/silentist/cra-template-red-hot-craco/issues"
+  },
+  "homepage": "https://github.com/silentist/cra-template-red-hot-craco#readme",
+  "author": "kenl",
+  "license": "ISC"
 }
